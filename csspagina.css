@@ -1,0 +1,53 @@
+header {
+  background-color: orange;
+  padding: 20px;
+}
+
+#content {
+  background-color: #dcdcdc;
+  display: block;
+  width: 70%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  padding: 20px;
+  vertical-align: top;
+  margin-top: 20px;
+}
+
+#navigation {
+  background-color: gray;
+  display: inline-block;
+  width: 20%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  height: 500px;
+  vertical-align: top;
+  float: left;
+}
+
+footer {
+  background-color: #87CEFA;
+  padding: 20px;
+  text-align: center;
+  clear: both;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+}
+
+li a:hover {
+  color: black;
+  background-color: white;
+}
+
+h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
+}
